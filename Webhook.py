@@ -20,7 +20,7 @@ ascii_art = """
 
 print(Colorate.Vertical(Colors.red_to_blue, ascii_art))
 
-def send_discord_message(webhook_url, name, message):
+def sendmsg(webhook_url, name, message):
     payload = {
         "content": message,
         "username": name
